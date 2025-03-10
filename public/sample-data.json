@@ -1,0 +1,15 @@
+{
+    "image": "template.jpg",
+    "texts": [
+        {
+            "text": "text 1",
+            "x": 80,
+            "y": 100
+        },
+        {
+            "text": "text 2",
+            "x": 140,
+            "y": 150
+        }
+    ]
+}
