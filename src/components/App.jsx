@@ -11,13 +11,13 @@ function App() {
     <>
       <NavBar />
       <div className="flex bg-radial-[at_70%_40%] from-[#85cf67] to-white to-80% px-[1.5rem]!">
-        <div className="mt-[10rem]! mb-[5rem]! flex flex-col">
+        <div className="mt-[10rem]! mb-[5rem]! mx-auto! flex flex-col">
           <div className="mx-auto! max-w-[90%]">
-            <h2 className="text-5xl font-semibold text-center">
+            <h2 className="text-3xl md:text-5xl font-semibold text-center">
               Edit text in image: Write text in your pictures
             </h2>
   
-            <p className="text-xl text-center mt-8! mx-1! md:mx-4! lg:mx-10!">
+            <p className="text-md md:text-xl text-center mt-8! mx-1! md:mx-4! lg:mx-10!">
               Effortlessly edit text in images online to add new meaning to pictures.
               Virtual Design's photo text editor allows you to add words and edit
               screenshot text. No advanced skills necessary.
@@ -26,18 +26,18 @@ function App() {
   
           <div className="mt-8! mx-auto!">
             <form>
-              <div className="bg-white rounded-3xl w-[44rem]! drop-shadow-md">
+              <div className="bg-white rounded-3xl w-auto! md:w-[44rem]! drop-shadow-md">
                 <div className="flex flex-col items-center p-[1.5rem]!">
                   <div className="flex flex-col items-center bg-white border-3 border-slate-300 hover:border-[#85cf67] border-dashed rounded-md w-full cursor-pointer">
                     <div className="flex bg-[#85cf67] text-white border-2 border-[#85cf67] rounded-2xl p-2! mt-7! mb-4!">
                       <IoMdCloudUpload className="self-center mr-2! text-xl" /> Upload image
                     </div>
-                    <p className="text-slate-500 font-semibold mb-4!">
+                    <p className="text-slate-500 text-sm! md:text-lg! font-semibold mb-4!">
                       Or drag and drop a file here
                     </p>
                   </div>
                   
-                  <p className="text-slate-500 text-sm my-2!">
+                  <p className="text-slate-500 text-xs md:text-sm my-2!">
                     By uploading a file you agree to our <a href="#" className="text-[#85cf67] underline">Terms of Use</a>.
                   </p>
                 </div>
